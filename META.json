@@ -4,7 +4,7 @@
       "Ron Savage <ron@savage.net.au>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120630",
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120630",
    "license" : [
       "artistic_1"
    ],
@@ -43,11 +43,11 @@
    "provides" : {
       "Log::Handler::Plugin::DBI" : {
          "file" : "lib/Log/Handler/Plugin/DBI.pm",
-         "version" : "1.00"
+         "version" : "1.01"
       },
       "Log::Handler::Plugin::DBI::CreateTable" : {
          "file" : "lib/Log/Handler/Plugin/DBI/CreateTable.pm",
-         "version" : "1.00"
+         "version" : "1.01"
       }
    },
    "release_status" : "stable",
@@ -56,5 +56,5 @@
          "http://opensource.org/licenses/artistic-license.php"
       ]
    },
-   "version" : "1.00"
+   "version" : "1.01"
 }

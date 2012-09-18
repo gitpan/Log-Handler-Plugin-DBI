@@ -1,4 +1,8 @@
 Revision history for Perl extension Log::Handler::Plugin::DBI.
 
+1.01  Tue sep 18 12:03:00 2012
+	- Remove references to obsolete modules CGI::Snapp::Plugin::(Forward, Redirect) now that their methods
+		forward() and redirect() have been rolled into CGI::Snapp V 1.02.
+
 1.00  Mon Mar  5 10:00:00 2012
 	  - Original version

@@ -12,7 +12,7 @@ use vars qw(@EXPORT @ISA);
 
 my($object);
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 # -----------------------------------------------
 
@@ -234,35 +234,11 @@ The following are all part of this set of distros:
 
 L<CGI::Snapp> - A almost back-compat fork of CGI::Application
 
-L<CGI::Snapp::Plugin::Forward> - A plugin for CGI::Snapp to switch cleanly to another run mode within the same app
-
-L<CGI::Snapp::Plugin::Redirect> - A plugin for CGI::Snapp to simplify using HTTP redirects
-
 L<CGI::Snapp::Demo::One> - A template-free demo of CGI::Snapp using just 1 run mode
 
 L<CGI::Snapp::Demo::Two> - A template-free demo of CGI::Snapp using N run modes
 
-L<CGI::Snapp::Demo::Three> - A template-free demo of CGI::Snapp using CGI::Snapp::Plugin::Forward
-
-L<CGI::Snapp::Demo::Four> - A template-free demo of CGI::Snapp using Log::Handler::Plugin::DBI
-
-L<CGI::Snapp::Demo::Four::Wrapper> - A wrapper around CGI::Snapp::Demo::Four, to simplify using Log::Handler::Plugin::DBI
-
-L<Config::Plugin::Tiny> - A plugin which uses Config::Tiny
-
-L<Config::Plugin::TinyManifold> - A plugin which uses Config::Tiny with 1 of N sections
-
-L<Data::Session> - Persistent session data management
-
-L<Log::Handler::Plugin::DBI> - A plugin for Log::Handler using Log::Hander::Output::DBI
-
-L<Log::Handler::Plugin::DBI::CreateTable> - A helper for Log::Hander::Output::DBI to create your 'log' table
-
-L<CGI::Snapp::Demo::One> - A template-free demo of CGI::Snapp using just 1 run mode
-
-L<CGI::Snapp::Demo::Two> - A template-free demo of CGI::Snapp using N run modes
-
-L<CGI::Snapp::Demo::Three> - A template-free demo of CGI::Snapp using CGI::Snapp::Plugin::Forward
+L<CGI::Snapp::Demo::Three> - A template-free demo of CGI::Snapp using the forward() method
 
 L<CGI::Snapp::Demo::Four> - A template-free demo of CGI::Snapp using Log::Handler::Plugin::DBI
 
