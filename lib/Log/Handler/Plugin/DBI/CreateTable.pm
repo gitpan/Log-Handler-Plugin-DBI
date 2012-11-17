@@ -16,7 +16,7 @@ fieldhash my %creator     => 'creator';
 fieldhash my %engine      => 'engine';
 fieldhash my %time_option => 'time_option';
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 # --------------------------------------------------
 

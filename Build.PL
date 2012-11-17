@@ -18,7 +18,7 @@ Module::Build -> new
  requires =>
  {
 	 Carp                      => 1.20,
-	 Config::Plugin::Tiny      => 1.00,
+	 Config::Plugin::Tiny      => 1.01,
 	 DBD::SQLite               => 1.35,
 	 DBIx::Admin::CreateTable  => 2.07,
 	 DBIx::Connector           => 0.47,

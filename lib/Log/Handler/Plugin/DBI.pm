@@ -12,7 +12,7 @@ use vars qw(@EXPORT @ISA);
 
 my($object);
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 # -----------------------------------------------
 
@@ -73,6 +73,8 @@ Then:
 
 	use Config::Plugin::Tiny; # For config_tiny().
 
+	use File::Spec;
+
 	use Log::Handler::Plugin::DBI; # For configure_logger() and log().
 
 	# ------------------------------------------------
@@ -80,7 +82,7 @@ Then:
 	sub marine
 	{
 		my($self)   = @_;
-		my($config) = $self -> config_tiny('/some/dir/config.tiny.ini');
+		my($config) = $self -> config_tiny(File::Spec -> catfile('some', 'dir', 'config.tiny.ini') );
 
 		$self -> configure_logger($$config{logger});
 
